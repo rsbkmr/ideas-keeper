@@ -2,6 +2,7 @@
   "name": "ideas-keeper-backend",
   "type": "module",
   "scripts": {
+    "prestart": "cd client && npm i && npm run build",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
